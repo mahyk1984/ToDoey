@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8A702D7A21972371009F4316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A702D7921972371009F4316 /* AppDelegate.swift */; };
-		8A702D7C21972371009F4316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A702D7B21972371009F4316 /* ViewController.swift */; };
+		8A702D7C21972371009F4316 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A702D7B21972371009F4316 /* ToDoListViewController.swift */; };
 		8A702D7F21972371009F4316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A702D7D21972371009F4316 /* Main.storyboard */; };
 		8A702D8121972384009F4316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A702D8021972384009F4316 /* Assets.xcassets */; };
 		8A702D8421972384009F4316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A702D8221972384009F4316 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A702D7621972371009F4316 /* myOwnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myOwnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A702D7621972371009F4316 /* ToDoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A702D7921972371009F4316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A702D7B21972371009F4316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A702D7B21972371009F4316 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		8A702D7E21972371009F4316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A702D8021972384009F4316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A702D8321972384009F4316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		8A702D6D21972370009F4316 = {
 			isa = PBXGroup;
 			children = (
-				8A702D7821972371009F4316 /* myOwnApp */,
+				8A702D7821972371009F4316 /* ToDoey */,
 				8A702D7721972371009F4316 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +46,30 @@
 		8A702D7721972371009F4316 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A702D7621972371009F4316 /* myOwnApp.app */,
+				8A702D7621972371009F4316 /* ToDoey.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8A702D7821972371009F4316 /* myOwnApp */ = {
+		8A702D7821972371009F4316 /* ToDoey */ = {
 			isa = PBXGroup;
 			children = (
 				8A702D7921972371009F4316 /* AppDelegate.swift */,
-				8A702D7B21972371009F4316 /* ViewController.swift */,
+				8A702D7B21972371009F4316 /* ToDoListViewController.swift */,
 				8A702D7D21972371009F4316 /* Main.storyboard */,
 				8A702D8021972384009F4316 /* Assets.xcassets */,
 				8A702D8221972384009F4316 /* LaunchScreen.storyboard */,
 				8A702D8521972384009F4316 /* Info.plist */,
 			);
-			path = myOwnApp;
+			path = ToDoey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A702D7521972371009F4316 /* myOwnApp */ = {
+		8A702D7521972371009F4316 /* ToDoey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A702D8821972384009F4316 /* Build configuration list for PBXNativeTarget "myOwnApp" */;
+			buildConfigurationList = 8A702D8821972384009F4316 /* Build configuration list for PBXNativeTarget "ToDoey" */;
 			buildPhases = (
 				8A702D7221972371009F4316 /* Sources */,
 				8A702D7321972371009F4316 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = myOwnApp;
+			name = ToDoey;
 			productName = myOwnApp;
-			productReference = 8A702D7621972371009F4316 /* myOwnApp.app */;
+			productReference = 8A702D7621972371009F4316 /* ToDoey.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8A702D7121972370009F4316 /* Build configuration list for PBXProject "myOwnApp" */;
+			buildConfigurationList = 8A702D7121972370009F4316 /* Build configuration list for PBXProject "ToDoey" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A702D7521972371009F4316 /* myOwnApp */,
+				8A702D7521972371009F4316 /* ToDoey */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A702D7C21972371009F4316 /* ViewController.swift in Sources */,
+				8A702D7C21972371009F4316 /* ToDoListViewController.swift in Sources */,
 				8A702D7A21972371009F4316 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +289,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ereman.myOwnApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Ereman.ToDoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Ereman.myOwnApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Ereman.ToDoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A702D7121972370009F4316 /* Build configuration list for PBXProject "myOwnApp" */ = {
+		8A702D7121972370009F4316 /* Build configuration list for PBXProject "ToDoey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A702D8621972384009F4316 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A702D8821972384009F4316 /* Build configuration list for PBXNativeTarget "myOwnApp" */ = {
+		8A702D8821972384009F4316 /* Build configuration list for PBXNativeTarget "ToDoey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A702D8921972384009F4316 /* Debug */,
